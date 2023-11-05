@@ -1,6 +1,4 @@
-# No longer under development
-
-You can download one of the old builds from the Releases tab.
+# Work in Progess
 
 # OpenMW for Android
 
