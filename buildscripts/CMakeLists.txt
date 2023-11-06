@@ -24,7 +24,7 @@ set(BOOST_HASH SHA256=8f32d4617390d1c2d16f26a27ab60d97807b35440d45891fa340fc2648
 set(FFMPEG_VERSION 6.0)
 set(FFMPEG_HASH SHA256=47d062731c9f66a78380e35a19aac77cebceccd1c7cc309b9c82343ffc430c3d)
 
-# https://www.libsdl.org/download-2.0.php
+# https://github.com/libsdl-org/SDL/releases/tag/release-2.28.5
 set(SDL2_VERSION 2.28.5)
 set(SDL2_HASH SHA256=349268f695c02efbc9b9148a70b85e58cefbbf704abd3e91be654db7f1e2c863)
 
