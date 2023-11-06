@@ -382,7 +382,7 @@ set(LUAJIT_MAKE_FLAGS
 )
 
 ExternalProject_Add(luajit
-	https://github.com/LuaJIT/LuaJIT/archive/refs/tags/${LUAJIT_VERSION}.tar.gz
+	URL https://github.com/LuaJIT/LuaJIT/archive/refs/tags/${LUAJIT_VERSION}.tar.gz
 	URL_HASH ${LUAJIT_HASH}
 	DOWNLOAD_DIR ${download_dir}
 
