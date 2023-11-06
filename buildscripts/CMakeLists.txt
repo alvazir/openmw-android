@@ -30,7 +30,7 @@ set(SDL2_HASH SHA256=332cb37d0be20cb9541739c61f79bae5a477427d79ae85e352089afdaf6
 
 # https://github.com/bulletphysics/bullet3/releases
 set(BULLET_VERSION 3.2.5)
-set(BULLET_HASH SHA256=baa642c906576d4d98d041d0acb80d85dd6eff6e3c16a009b1abf1ccd2bc0a61)
+set(BULLET_HASH SHA256=c45afb6399e3f68036ddb641c6bf6f552bf332d5ab6be62f7e6c54eda05ceb77)
 
 # https://github.com/MyGUI/mygui/releases
 set(MYGUI_VERSION 3.4.3)
@@ -291,8 +291,7 @@ ExternalProject_Add(sdl2
 )
 
 ExternalProject_Add(bullet
-	URL https://github.com/bulletphysics/bullet3/archive/${BULLET_VERSION}.tar.gz
-	https://github.com/xyzz/openmw-deps/releases/download/v0/bullet3-${BULLET_VERSION}.tar.gz
+	URL https://codeload.github.com/bulletphysics/bullet3/tar.gz/refs/tags/3.25${BULLET_VERSION}
 	URL_HASH ${BULLET_HASH}
 	DOWNLOAD_DIR ${download_dir}
 
