@@ -1,4 +1,4 @@
-# Work in Progess
+# Work in Progess. Don't try using this yet as it's a mess in this state.
 
 # OpenMW for Android
 
