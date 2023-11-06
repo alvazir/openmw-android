@@ -29,7 +29,7 @@ set(SDL2_VERSION 2.28.5)
 set(SDL2_HASH SHA256=332cb37d0be20cb9541739c61f79bae5a477427d79ae85e352089afdaf6666e4)
 
 # https://github.com/bulletphysics/bullet3/releases
-set(BULLET_VERSION 3.2.5)
+set(BULLET_VERSION 3.25)
 set(BULLET_HASH SHA256=c45afb6399e3f68036ddb641c6bf6f552bf332d5ab6be62f7e6c54eda05ceb77)
 
 # https://github.com/MyGUI/mygui/releases
@@ -291,7 +291,7 @@ ExternalProject_Add(sdl2
 )
 
 ExternalProject_Add(bullet
-	URL https://codeload.github.com/bulletphysics/bullet3/tar.gz/refs/tags/3.25${BULLET_VERSION}
+	URL https://codeload.github.com/bulletphysics/bullet3/tar.gz/refs/tags/${BULLET_VERSION}
 	URL_HASH ${BULLET_HASH}
 	DOWNLOAD_DIR ${download_dir}
 
