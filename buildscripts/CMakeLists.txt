@@ -203,7 +203,7 @@ ExternalProject_Add(boost
 	CONFIGURE_COMMAND ${wrapper_command} <SOURCE_DIR>/bootstrap.sh
 	--prefix=${prefix}
 
-	BUILD_COMMAND ""
+	BUILD_COMMAND "./b2"
 
 	INSTALL_COMMAND ${wrapper_command} ./b2
 	-j4
