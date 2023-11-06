@@ -16,9 +16,9 @@ set(FREETYPE2_HASH SHA256=1ac27e16c134a7f2ccea177faba19801131116fd682efc1f573703
 set(OPENAL_VERSION 1.23.1)
 set(OPENAL_HASH SHA256=dfddf3a1f61059853c625b7bb03de8433b455f2f79f89548cbcbd5edca3d4a4a)
 
-# http://www.boost.org/users/download/
+# https://www.boost.org/users/download/#live
 set(BOOST_VERSION 1.83.0)
-set(BOOST_HASH SHA256=6478edfe2f3305127cffe8caf73ea0176c53769f4bf1585be237eb30798c3b8e)
+set(BOOST_HASH SHA256=c0685b68dd44cc46574cce86c4e17c0f611b15e195be9848dfd0769a0a207628)
 
 # https://www.ffmpeg.org/download.html
 set(FFMPEG_VERSION 6.0)
@@ -193,7 +193,7 @@ ExternalProject_Add(openal
 
 string(REPLACE "." "_" BOOST_VERSION_UNDERSCORE ${BOOST_VERSION})
 ExternalProject_Add(boost
-	URL https://dl.bintray.com/boostorg/release/${BOOST_VERSION}/source/boost_${BOOST_VERSION_UNDERSCORE}.tar.bz2
+	URL https://boostorg.jfrog.io/artifactory/main/release/${BOOST_VERSION}/source/boost_${BOOST_VERSION_UNDERSCORE}.tar.bz2
 	https://github.com/xyzz/openmw-deps/releases/download/v0/boost_${BOOST_VERSION_UNDERSCORE}.tar.bz2
 	URL_HASH ${BOOST_HASH}
 	DOWNLOAD_DIR ${download_dir}
