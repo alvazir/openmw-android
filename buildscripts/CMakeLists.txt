@@ -2,19 +2,19 @@ cmake_minimum_required(VERSION 3.2.0)
 
 # https://github.com/libjpeg-turbo/libjpeg-turbo/releases
 set(LIBJPEG_TURBO_VERSION 3.0.1)
-set(LIBJPEG_TURBO_HASH SHA256=b24890e2bb46e12e72a79f7e965f409f4e16466d00e1dd15d93d73ee6b592523)
+set(LIBJPEG_TURBO_HASH SHA256=22429507714ae147b3acacd299e82099fce5d9f456882fc28e252e4579ba2a75)
 
 # http://www.libpng.org/pub/png/libpng.html
 set(LIBPNG_VERSION 1.6.40)
-set(LIBPNG_HASH SHA256=505e70834d35383537b6491e7ae8641f1a4bed1876dbfe361201fc80868d88ca)
+set(LIBPNG_HASH SHA256=535b479b2467ff231a3ec6d92a525906fb8ef27978be4f66dbe05d3f3a01b3a1)
 
 # https://www.freetype.org/index.html#news
 set(FREETYPE2_VERSION 2.13.2)
-set(FREETYPE2_HASH SHA256=5eab795ebb23ac77001cfb68b7d4d50b5d6c7469247b0b01b2c953269f658dac)
+set(FREETYPE2_HASH SHA256=1ac27e16c134a7f2ccea177faba19801131116fd682efc1f5737037c5db224b5)
 
 # https://github.com/kcat/openal-soft/releases
 set(OPENAL_VERSION 1.23.1)
-set(OPENAL_HASH SHA256=8ac17e4e3b32c1af3d5508acfffb838640669b4274606b7892aa796ca9d7467f)
+set(OPENAL_HASH SHA256=dfddf3a1f61059853c625b7bb03de8433b455f2f79f89548cbcbd5edca3d4a4a)
 
 # http://www.boost.org/users/download/
 set(BOOST_VERSION 1.83.0)
@@ -22,7 +22,7 @@ set(BOOST_HASH SHA256=8f32d4617390d1c2d16f26a27ab60d97807b35440d45891fa340fc2648
 
 # https://www.ffmpeg.org/download.html
 set(FFMPEG_VERSION 6.0)
-set(FFMPEG_HASH SHA256=42093549751b582cf0f338a21a3664f52e0a9fbe0d238d3c992005e493607d0e)
+set(FFMPEG_HASH SHA256=47d062731c9f66a78380e35a19aac77cebceccd1c7cc309b9c82343ffc430c3d)
 
 # https://www.libsdl.org/download-2.0.php
 set(SDL2_VERSION 2.28.5)
