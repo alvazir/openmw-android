@@ -17,7 +17,7 @@ if [[ ! -d toolchain ]]; then
 	if [[ $CCACHE = "true" ]]; then
 		echo "==> Patching common toolchain for ccache support"
 
-		pushd toolchain/ndk/toolchains/llvm/prebuilt/linux-x86_64/bin
+		pushd toolchain/ndk/toolchains/llvm/prebuilt/linux/bin
 
 		mv "clang" "clangX"
 		mv "clang++" "clangX++"
