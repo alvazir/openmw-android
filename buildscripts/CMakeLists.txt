@@ -334,7 +334,7 @@ ExternalProject_Add(gl4es
 ExternalProject_Add(mygui
 	DEPENDS freetype2
 
-	URL https://github.com/MyGUI/mygui/archive/MyGUI${MYGUI_VERSION}.tar.gz
+	URL https://github.com/MyGUI/mygui/archive/refs/tags/MyGUI${MYGUI_VERSION}.tar.gz
 	https://github.com/xyzz/openmw-deps/releases/download/v0/MyGUI${MYGUI_VERSION}.tar.gz
 	URL_HASH ${MYGUI_HASH}
 	DOWNLOAD_DIR ${download_dir}
