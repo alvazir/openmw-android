@@ -17,8 +17,8 @@ set(OPENAL_VERSION 1.23.1)
 set(OPENAL_HASH SHA256=dfddf3a1f61059853c625b7bb03de8433b455f2f79f89548cbcbd5edca3d4a4a)
 
 # https://www.boost.org/users/download/#live
-set(BOOST_VERSION 1.83.0)
-set(BOOST_HASH SHA256=6478edfe2f3305127cffe8caf73ea0176c53769f4bf1585be237eb30798c3b8e)
+set(BOOST_VERSION 1.82.0)
+set(BOOST_HASH SHA256=a6e1ab9b0860e6a2881dd7b21fe9f737a095e5f33a3a874afc6a345228597ee6)
 
 # https://www.ffmpeg.org/download.html
 set(FFMPEG_VERSION 6.0)
