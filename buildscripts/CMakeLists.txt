@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.2.0)
 
 # https://github.com/libjpeg-turbo/libjpeg-turbo/releases
 set(LIBJPEG_TURBO_VERSION 3.0.1)
-set(LIBJPEG_TURBO_HASH SHA256=22429507714ae147b3acacd299e82099fce5d9f456882fc28e252e4579ba2a75)
+set(LIBJPEG_TURBO_HASH SHA256=5b9bbca2b2a87c6632c821799438d358e27004ab528abf798533c15d50b39f82)
 
 # http://www.libpng.org/pub/png/libpng.html
 set(LIBPNG_VERSION 1.6.40)
