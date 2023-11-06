@@ -15,8 +15,12 @@ There are two steps for building OpenMW for Android. The first step is building 
 ### Prerequisites
 
 You will need some standard tools installed that you probably already have (bash, gcc, g++, sha256sum, unzip, python3, python3-devel). On windows I installed cygwin
+
 Run the following on your machine to install them:
+
 rpm-based: sudo dnf install gcc g++ unzip python3 python3-devel
+
+debian-based: TBA
 
 CMake 3.6.0 or newer is **required**, you can download the latest version [here](https://cmake.org/download/) (and place in your `PATH`) if your distro ships with an outdated version.
 
