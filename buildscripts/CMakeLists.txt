@@ -1,39 +1,39 @@
 cmake_minimum_required(VERSION 3.2.0)
 
 # https://github.com/libjpeg-turbo/libjpeg-turbo/releases
-set(LIBJPEG_TURBO_VERSION 1.5.3)
+set(LIBJPEG_TURBO_VERSION 3.0.1)
 set(LIBJPEG_TURBO_HASH SHA256=b24890e2bb46e12e72a79f7e965f409f4e16466d00e1dd15d93d73ee6b592523)
 
 # http://www.libpng.org/pub/png/libpng.html
-set(LIBPNG_VERSION 1.6.37)
+set(LIBPNG_VERSION 1.6.40)
 set(LIBPNG_HASH SHA256=505e70834d35383537b6491e7ae8641f1a4bed1876dbfe361201fc80868d88ca)
 
 # https://www.freetype.org/index.html#news
-set(FREETYPE2_VERSION 2.10.4)
+set(FREETYPE2_VERSION 2.13.2)
 set(FREETYPE2_HASH SHA256=5eab795ebb23ac77001cfb68b7d4d50b5d6c7469247b0b01b2c953269f658dac)
 
 # https://github.com/kcat/openal-soft/releases
-set(OPENAL_VERSION 1.21.1)
+set(OPENAL_VERSION 1.23.1)
 set(OPENAL_HASH SHA256=8ac17e4e3b32c1af3d5508acfffb838640669b4274606b7892aa796ca9d7467f)
 
 # http://www.boost.org/users/download/
-set(BOOST_VERSION 1.69.0)
+set(BOOST_VERSION 1.83.0)
 set(BOOST_HASH SHA256=8f32d4617390d1c2d16f26a27ab60d97807b35440d45891fa340fc2648b04406)
 
 # https://www.ffmpeg.org/download.html
-set(FFMPEG_VERSION 4.4)
+set(FFMPEG_VERSION 6.0)
 set(FFMPEG_HASH SHA256=42093549751b582cf0f338a21a3664f52e0a9fbe0d238d3c992005e493607d0e)
 
 # https://www.libsdl.org/download-2.0.php
-set(SDL2_VERSION 2.0.12)
+set(SDL2_VERSION 2.28.5)
 set(SDL2_HASH SHA256=349268f695c02efbc9b9148a70b85e58cefbbf704abd3e91be654db7f1e2c863)
 
 # https://github.com/bulletphysics/bullet3/releases
-set(BULLET_VERSION 3.17)
+set(BULLET_VERSION 3.2.5)
 set(BULLET_HASH SHA256=baa642c906576d4d98d041d0acb80d85dd6eff6e3c16a009b1abf1ccd2bc0a61)
 
 # https://github.com/MyGUI/mygui/releases
-set(MYGUI_VERSION 3.4.0)
+set(MYGUI_VERSION 3.4.3)
 set(MYGUI_HASH SHA256=d1d5f294670ae71f7200ed4b30859018281d8cfd45d6a38d18b97a4aba604c42)
 
 # https://github.com/ptitSeb/gl4es/releases
@@ -45,11 +45,11 @@ set(OSG_VERSION 3.6.5)
 set(OSG_HASH SHA256=aea196550f02974d6d09291c5d83b51ca6a03b3767e234a8c0e21322927d1e12)
 
 # https://github.com/lz4/lz4/releases
-set(LZ4_VERSION 1.9.3)
+set(LZ4_VERSION 1.9.4)
 set(LZ4_HASH SHA256=030644df4611007ff7dc962d981f390361e6c97a34e5cbc393ddfbe019ffe2c1)
 
 # https://luajit.org/download.html
-set(LUAJIT_VERSION 2.1.0-beta3)
+set(LUAJIT_VERSION 2.1.0)
 set(LUAJIT_HASH SHA256=1ad2e34b111c802f9d0cdf019e986909123237a28c746b21295b63c9e785d9c3)
 
 # https://github.com/OpenMW/openmw/commits/master
