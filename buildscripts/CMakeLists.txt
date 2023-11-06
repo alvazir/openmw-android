@@ -46,7 +46,7 @@ set(OSG_HASH SHA256=aea196550f02974d6d09291c5d83b51ca6a03b3767e234a8c0e21322927d
 
 # https://github.com/lz4/lz4/releases
 set(LZ4_VERSION 1.9.4)
-set(LZ4_HASH SHA256=030644df4611007ff7dc962d981f390361e6c97a34e5cbc393ddfbe019ffe2c1)
+set(LZ4_HASH SHA256=0b0e3aa07c8c063ddf40b082bdf7e37a1562bda40a0ff5272957f3e987e0e54b)
 
 # https://github.com/LuaJIT/LuaJIT/archive/refs/tag
 set(LUAJIT_VERSION 2.1.ROLLING)
@@ -357,7 +357,6 @@ ExternalProject_Add(mygui
 
 ExternalProject_Add(lz4
 	URL https://github.com/lz4/lz4/archive/v${LZ4_VERSION}.tar.gz
-	https://github.com/xyzz/openmw-deps/releases/download/v0/v${LZ4_VERSION}.tar.gz
 	URL_HASH ${LZ4_HASH}
 	DOWNLOAD_DIR ${download_dir}
 
