@@ -2,19 +2,13 @@
 
 # OpenMW for Android
 
-[Google Play](https://play.google.com/store/apps/details?id=is.xyz.omw) | [Google Play (Nightly)](https://play.google.com/store/apps/details?id=is.xyz.omw_nightly)
-
-[F-Droid](https://f-droid.org/packages/is.xyz.omw/) | [F-Droid (Nightly)](https://f-droid.org/packages/is.xyz.omw_nightly/)
-
-[FAQ & Info](https://omw.xyz.is/)
-
 ## Building
 
 There are two steps for building OpenMW for Android. The first step is building C/C++ libraries. The second step is building the Java launcher.
 
 ### Prerequisites
 
-You will need some standard tools installed that you probably already have (bash, gcc, g++, sha256sum, unzip, python3, python3-devel). On windows I installed cygwin
+You will need some standard tools installed that you probably already have (bash, gcc, g++, sha256sum, unzip, python3, python3-devel, curl, cmake).
 
 Run the following on your machine to install them:
 
