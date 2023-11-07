@@ -92,8 +92,8 @@ set(COMMON_NDK_BUILD_FLAGS
 	APP_ABI=${app_abi}
 	LOCAL_LDFLAGS=$ENV{LDFLAGS}
 	-j4
+ -Wl,--undefined-version
 )
-
 set(COMMON_AUTOCONF_FLAGS
 	--enable-static
 	--disable-shared
