@@ -202,7 +202,7 @@ ExternalProject_Add(boost
 	BUILD_COMMAND ""
 
 	INSTALL_COMMAND ${wrapper_command} ./b2
-	-j23
+	-j32
         --with-log
 	--with-filesystem
 	--with-program_options
