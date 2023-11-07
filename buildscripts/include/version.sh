@@ -2,7 +2,7 @@
 
 NDK_VERSION="r26b"
 NDK_HASH="ad73c0370f0b0a87d1671ed2fd5a9ac9acfd1eb5c43a7fbfbd330f85d19dd632"
-ANDROID_API="29"
+ANDROID_API="26"
 
 # End of configurable options
 
