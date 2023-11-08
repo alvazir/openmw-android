@@ -134,7 +134,6 @@ ExternalProject_Add(libjpeg-turbo
 	DOWNLOAD_DIR ${download_dir}
 
 	CONFIGURE_COMMAND cmake ${wrapper_command} <SOURCE_DIR>
-        ${COMMON_AUTOCONF_FLAGS}
         ${libjpeg_turbo_flags}
 
 	BUILD_COMMAND ${wrapper_command} $(MAKE) PROGRAMS=
