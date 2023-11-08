@@ -17,7 +17,7 @@ if [[ ! -d toolchain ]]; then
 	if [[ $CCACHE = "true" ]]; then
 		echo "==> Patching common toolchain for ccache support"
 
-		pushd toolchain/ndk/toolchains/llvm/prebuilt/linux/bin
+		pushd toolchain/ndk/toolchains/llvm/prebuilt/linux-x86_64/bin
 
 		mv "clang" "clangX"
 		mv "clang++" "clangX++"
@@ -38,9 +38,9 @@ pushd toolchain
 if [[ ! -d $ARCH ]]; then
 	echo "==> Making toolchain for architecture $ARCH"
 
-	$NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/armv7a-linux-androideabi26-clang++
-
-	# Patch it to ensure gcc is never ever never used
+	$ $NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/armv7a-linux-androideabi26-clang++ src.cpp
+	
+        # Patch it to ensure gcc is never ever never used
 	rm -f $ARCH/bin/$NDK_TRIPLET-gcc
 	rm -f $ARCH/bin/$NDK_TRIPLET-g++
 
