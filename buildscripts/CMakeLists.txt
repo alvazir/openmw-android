@@ -133,8 +133,8 @@ ExternalProject_Add(libjpeg-turbo
 	URL_HASH ${LIBJPEG_TURBO_HASH}
 	DOWNLOAD_DIR ${download_dir}
 
-	CONFIGURE_COMMAND cmake ${wrapper_command} <SOURCE_DIR>
-        ${libjpeg_turbo_flags}
+	CONFIGURE_COMMAND cmake -G"Unix Makefiles" ${libjpeg_turbo_flags} {source_directory}
+        
 
 	BUILD_COMMAND ${wrapper_command} $(MAKE) PROGRAMS=
 
