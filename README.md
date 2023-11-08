@@ -12,7 +12,7 @@ You will need some standard tools installed that you probably already have (bash
 
 Run the following on your machine to install them:
 
-rpm-based: sudo dnf install gcc g++ unzip python3 python3-devel cmake
+rpm-based: sudo dnf install gcc g++ unzip python3 python3-devel python-is-python3 cmake
 
 debian-based: TBA
 
