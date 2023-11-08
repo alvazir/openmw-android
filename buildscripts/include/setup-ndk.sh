@@ -36,7 +36,7 @@ fi
 pushd toolchain
 
 if [[ ! -d $ARCH ]]; then
-	echo "==> Making standalone toolchain for architecture $ARCH"
+	echo "==> Making toolchain for architecture $ARCH"
 
 	$NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/armv7a-linux-androideabi26-clang++
 
