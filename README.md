@@ -20,7 +20,7 @@ rpm-based: sudo dnf install gcc g++ unzip python3 python3-devel python-is-python
 
 #sudo apt-get update
 
-#sudo apt-get install git build-essential cmake curl bash gcc g++ python3 python3-dev python-is-python3 libopenal-dev libopenscenegraph-dev libbullet-dev libsdl2-dev lib32z1 libmygui-dev libunshield-dev liblz4-dev libtinyxml-dev libqt5opengl5-dev libboost-filesystem-dev libboost-program-options-dev libboost-iostreams-dev libavcodec-dev libavformat-dev libavutil-dev libswscale-dev libswresample-dev librecast-dev libluajit-5.1-dev libsqlite3-dev libyaml-cpp-dev libcollada-dom-dev clang libc6:i386 libncurses5:i386 libstdc++6:i386 libbz2-1.0:i386 libc6 libncurses5 libstdc++6 libbz2-1.0 freeglut3 libncurses5-dev gcc-multilib
+#sudo apt-get install git build-essential cmake curl bash gcc g++ python3 python3-dev python-is-python3 libopenal-dev libopenscenegraph-dev libbullet-dev libsdl2-dev lib32z1 libmygui-dev libunshield-dev liblz4-dev libtinyxml-dev libqt5opengl5-dev libboost-filesystem-dev libboost-program-options-dev libboost-iostreams-dev libavcodec-dev libavformat-dev libavutil-dev libswscale-dev libswresample-dev librecast-dev libluajit-5.1-dev libsqlite3-dev libyaml-cpp-dev libcollada-dom-dev clang libc6:i386 libncurses5:i386 libstdc++6:i386 libbz2-1.0:i386 libc6 libncurses5 libstdc++6 libbz2-1.0 freeglut3 libncurses5-dev gcc-multilib libboost-all-dev
 
 CMake 3.6.0 or newer is **required**, you can download the latest version [here](https://cmake.org/download/) (and place in your `PATH`) if your distro ships with an outdated version.
 
