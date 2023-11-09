@@ -15,8 +15,11 @@ Run the following on your machine to install them:
 rpm-based: sudo dnf install gcc g++ unzip python3 python3-devel python-is-python3 cmake
 
 debian-based: 
+
 sudo add-apt-repository ppa:openmw/openmw
+
 sudo apt-get update
+
 sudo apt-get install git build-essential cmake curl bash gcc g++ python3 python3-dev python-is-python3 \
  libopenal-dev libopenscenegraph-dev libbullet-dev libsdl2-dev ia32-libs\
  libmygui-dev libunshield-dev liblz4-dev libtinyxml-dev libqt5opengl5-dev \
