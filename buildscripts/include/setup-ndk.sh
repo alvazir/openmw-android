@@ -43,8 +43,7 @@ if [[ ! -d $ARCH ]]; then
 		--api $ANDROID_API \
 		--stl libc++ \
 		--install-dir ./$ARCH
-
-	# Patch it to ensure gcc is never ever never used
+        # Patch it to ensure gcc is never ever never used
 	rm -f $ARCH/bin/$NDK_TRIPLET-gcc
 	rm -f $ARCH/bin/$NDK_TRIPLET-g++
 

@@ -1,14 +1,6 @@
-# No longer under development
-
-You can download one of the old builds from the Releases tab.
+# Work in Progess. Don't try using this yet as it's a mess in this state.
 
 # OpenMW for Android
-
-[Google Play](https://play.google.com/store/apps/details?id=is.xyz.omw) | [Google Play (Nightly)](https://play.google.com/store/apps/details?id=is.xyz.omw_nightly)
-
-[F-Droid](https://f-droid.org/packages/is.xyz.omw/) | [F-Droid (Nightly)](https://f-droid.org/packages/is.xyz.omw_nightly/)
-
-[FAQ & Info](https://omw.xyz.is/)
 
 ## Building
 
@@ -16,7 +8,19 @@ There are two steps for building OpenMW for Android. The first step is building 
 
 ### Prerequisites
 
-You will need some standard tools installed that you probably already have (bash, gcc, g++, sha256sum, unzip).
+You will need some standard tools installed that you probably already have (bash, gcc, g++, sha256sum, unzip, python3, python3-devel, curl, cmake).
+
+Run the following on your machine to install them:
+
+rpm-based: sudo dnf install gcc g++ unzip python3 python3-devel python-is-python3 cmake
+
+### debian-based: 
+
+#sudo add-apt-repository ppa:openmw/openmw
+
+#sudo apt-get update
+
+#sudo apt-get install git build-essential cmake curl bash gcc g++ python3 python3-dev python-is-python3 libopenal-dev libopenscenegraph-dev libbullet-dev libsdl2-dev lib32z1 libmygui-dev libunshield-dev liblz4-dev libtinyxml-dev libqt5opengl5-dev libboost-filesystem-dev libboost-program-options-dev libboost-iostreams-dev libavcodec-dev libavformat-dev libavutil-dev libswscale-dev libswresample-dev librecast-dev libluajit-5.1-dev libsqlite3-dev libyaml-cpp-dev libcollada-dom-dev clang libc6:i386 libncurses5:i386 libstdc++6:i386 libbz2-1.0:i386 libc6 libncurses5 libstdc++6 libbz2-1.0 freeglut3 libncurses5-dev gcc-multilib libboost-all-dev libfreetype6-dev libois-dev libpipewire-0.3-dev doxygen libnl-utils openjdk-11-jdk
 
 CMake 3.6.0 or newer is **required**, you can download the latest version [here](https://cmake.org/download/) (and place in your `PATH`) if your distro ships with an outdated version.
 

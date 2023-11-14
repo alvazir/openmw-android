@@ -1,42 +1,42 @@
 cmake_minimum_required(VERSION 3.2.0)
 
 # https://github.com/libjpeg-turbo/libjpeg-turbo/releases
-set(LIBJPEG_TURBO_VERSION 1.5.3)
-set(LIBJPEG_TURBO_HASH SHA256=b24890e2bb46e12e72a79f7e965f409f4e16466d00e1dd15d93d73ee6b592523)
+set(LIBJPEG_TURBO_VERSION 3.0.1)
+set(LIBJPEG_TURBO_HASH SHA256=5b9bbca2b2a87c6632c821799438d358e27004ab528abf798533c15d50b39f82)
 
 # http://www.libpng.org/pub/png/libpng.html
-set(LIBPNG_VERSION 1.6.37)
-set(LIBPNG_HASH SHA256=505e70834d35383537b6491e7ae8641f1a4bed1876dbfe361201fc80868d88ca)
+set(LIBPNG_VERSION 1.6.40)
+set(LIBPNG_HASH SHA256=535b479b2467ff231a3ec6d92a525906fb8ef27978be4f66dbe05d3f3a01b3a1)
 
 # https://www.freetype.org/index.html#news
-set(FREETYPE2_VERSION 2.10.4)
-set(FREETYPE2_HASH SHA256=5eab795ebb23ac77001cfb68b7d4d50b5d6c7469247b0b01b2c953269f658dac)
+set(FREETYPE2_VERSION 2.13.2)
+set(FREETYPE2_HASH SHA256=1ac27e16c134a7f2ccea177faba19801131116fd682efc1f5737037c5db224b5)
 
 # https://github.com/kcat/openal-soft/releases
-set(OPENAL_VERSION 1.21.1)
-set(OPENAL_HASH SHA256=8ac17e4e3b32c1af3d5508acfffb838640669b4274606b7892aa796ca9d7467f)
+set(OPENAL_VERSION 1.23.1)
+set(OPENAL_HASH SHA256=dfddf3a1f61059853c625b7bb03de8433b455f2f79f89548cbcbd5edca3d4a4a)
 
-# http://www.boost.org/users/download/
-set(BOOST_VERSION 1.69.0)
-set(BOOST_HASH SHA256=8f32d4617390d1c2d16f26a27ab60d97807b35440d45891fa340fc2648b04406)
+# https://www.boost.org/users/download/#live
+set(BOOST_VERSION 1.82.0)
+set(BOOST_HASH SHA256=a6e1ab9b0860e6a2881dd7b21fe9f737a095e5f33a3a874afc6a345228597ee6)
 
 # https://www.ffmpeg.org/download.html
-set(FFMPEG_VERSION 4.4)
-set(FFMPEG_HASH SHA256=42093549751b582cf0f338a21a3664f52e0a9fbe0d238d3c992005e493607d0e)
+set(FFMPEG_VERSION 6.0)
+set(FFMPEG_HASH SHA256=47d062731c9f66a78380e35a19aac77cebceccd1c7cc309b9c82343ffc430c3d)
 
-# https://www.libsdl.org/download-2.0.php
-set(SDL2_VERSION 2.0.12)
-set(SDL2_HASH SHA256=349268f695c02efbc9b9148a70b85e58cefbbf704abd3e91be654db7f1e2c863)
+# https://github.com/libsdl-org/SDL/releases/tag/release-2.28.5
+set(SDL2_VERSION 2.28.5)
+set(SDL2_HASH SHA256=332cb37d0be20cb9541739c61f79bae5a477427d79ae85e352089afdaf6666e4)
 
 # https://github.com/bulletphysics/bullet3/releases
-set(BULLET_VERSION 3.17)
-set(BULLET_HASH SHA256=baa642c906576d4d98d041d0acb80d85dd6eff6e3c16a009b1abf1ccd2bc0a61)
+set(BULLET_VERSION 3.25)
+set(BULLET_HASH SHA256=c45afb6399e3f68036ddb641c6bf6f552bf332d5ab6be62f7e6c54eda05ceb77)
 
 # https://github.com/MyGUI/mygui/releases
-set(MYGUI_VERSION 3.4.0)
-set(MYGUI_HASH SHA256=d1d5f294670ae71f7200ed4b30859018281d8cfd45d6a38d18b97a4aba604c42)
+set(MYGUI_VERSION 3.4.3)
+set(MYGUI_HASH SHA256=33c91b531993047e77cace36d6fea73634b8c17bd0ed193d4cd12ac7c6328abd)
 
-# https://github.com/ptitSeb/gl4es/releases
+# https://github.com/ptitSeb/gl4es/releases/tag/v1.1.4
 set(GL4ES_VERSION v1.1.4)
 set(GL4ES_HASH SHA256=b565e717c7d192e936bda25f3cb90ad8db398af56414ec08294b6716574c1a6d)
 
@@ -45,16 +45,16 @@ set(OSG_VERSION 3.6.5)
 set(OSG_HASH SHA256=aea196550f02974d6d09291c5d83b51ca6a03b3767e234a8c0e21322927d1e12)
 
 # https://github.com/lz4/lz4/releases
-set(LZ4_VERSION 1.9.3)
-set(LZ4_HASH SHA256=030644df4611007ff7dc962d981f390361e6c97a34e5cbc393ddfbe019ffe2c1)
+set(LZ4_VERSION 1.9.4)
+set(LZ4_HASH SHA256=0b0e3aa07c8c063ddf40b082bdf7e37a1562bda40a0ff5272957f3e987e0e54b)
 
-# https://luajit.org/download.html
-set(LUAJIT_VERSION 2.1.0-beta3)
-set(LUAJIT_HASH SHA256=1ad2e34b111c802f9d0cdf019e986909123237a28c746b21295b63c9e785d9c3)
+# https://github.com/LuaJIT/LuaJIT/archive/refs/tag
+set(LUAJIT_VERSION 2.1.ROLLING)
+set(LUAJIT_HASH SHA256=31d7a4853df4c548bf91c13d3b690d19663d4c06ae952b62606c8225d0b410ad)
 
 # https://github.com/OpenMW/openmw/commits/master
-set(OPENMW_VERSION 92f4e32f78adc1d48dcd7ad4f9ed3ae5243c8203)
-set(OPENMW_HASH SHA256=8ce70ffabcc03dba33fe955b273ae6a6afe3ae054797261f38781a869a0e04ec)
+set(OPENMW_VERSION 231803c6ea280484cae97e9f82b94da06def30cc)
+set(OPENMW_HASH SHA256=9fe0e4c035d48a8edffc981f8fba3c7ef3c2910d)
 
 # End of configurable options
 
@@ -76,6 +76,7 @@ set(COMMON_CMAKE_ARGS
 	-DANDROID_PLATFORM=${android_platform}
 	-DANDROID_STL=c++_shared
 	-DANDROID_CPP_FEATURES=rtti\ exceptions
+        -DANDROID_ALLOW_UNDEFINED_VERSION_SCRIPT_SYMBOLS=ON
 	-DCMAKE_C_FLAGS=-DMYGUI_DONT_REPLACE_NULLPTR\ -I${prefix}/include/\ $ENV{CFLAGS}
 	-DCMAKE_CXX_FLAGS=-DMYGUI_DONT_REPLACE_NULLPTR\ -I${prefix}/include/\ $ENV{CXXFLAGS}
 	-DCMAKE_SHARED_LINKER_FLAGS=$ENV{LDFLAGS}
@@ -92,8 +93,8 @@ set(COMMON_NDK_BUILD_FLAGS
 	APP_ABI=${app_abi}
 	LOCAL_LDFLAGS=$ENV{LDFLAGS}
 	-j4
+        -Wl,--undefined-version
 )
-
 set(COMMON_AUTOCONF_FLAGS
 	--enable-static
 	--disable-shared
@@ -128,14 +129,12 @@ if (${ARCH} STREQUAL "x86")
 endif()
 
 ExternalProject_Add(libjpeg-turbo
-	URL https://sourceforge.net/projects/libjpeg-turbo/files/${LIBJPEG_TURBO_VERSION}/libjpeg-turbo-${LIBJPEG_TURBO_VERSION}.tar.gz/download
-	https://github.com/xyzz/openmw-deps/releases/download/v0/libjpeg-turbo-${LIBJPEG_TURBO_VERSION}.tar.gz
+	URL https://github.com/libjpeg-turbo/libjpeg-turbo/archive/refs/tags/${LIBJPEG_TURBO_VERSION}.tar.gz
 	URL_HASH ${LIBJPEG_TURBO_HASH}
 	DOWNLOAD_DIR ${download_dir}
 
-	CONFIGURE_COMMAND ${wrapper_command} <SOURCE_DIR>/configure
-	${COMMON_AUTOCONF_FLAGS}
-	${libjpeg_turbo_flags}
+	CONFIGURE_COMMAND cmake -G "Unix Makefiles" [additional CMake flags] <SOURCE_DIR>
+        
 
 	BUILD_COMMAND ${wrapper_command} $(MAKE) PROGRAMS=
 
@@ -144,7 +143,6 @@ ExternalProject_Add(libjpeg-turbo
 
 ExternalProject_Add(libpng
 	URL http://prdownloads.sourceforge.net/libpng/libpng-${LIBPNG_VERSION}.tar.xz
-	https://github.com/xyzz/openmw-deps/releases/download/v0/libpng-${LIBPNG_VERSION}.tar.xz
 	URL_HASH ${LIBPNG_HASH}
 	DOWNLOAD_DIR ${download_dir}
 
@@ -158,7 +156,6 @@ ExternalProject_Add(libpng
 
 ExternalProject_Add(freetype2
 	URL https://download.savannah.gnu.org/releases/freetype/freetype-${FREETYPE2_VERSION}.tar.gz
-	https://github.com/xyzz/openmw-deps/releases/download/v0/freetype-${FREETYPE2_VERSION}.tar.gz
 	URL_HASH ${FREETYPE2_HASH}
 	DOWNLOAD_DIR ${download_dir}
 
@@ -173,7 +170,6 @@ ExternalProject_Add(freetype2
 
 ExternalProject_Add(openal
 	URL https://github.com/kcat/openal-soft/archive/${OPENAL_VERSION}.tar.gz
-	https://github.com/xyzz/openmw-deps/releases/download/v0/openal-soft-${OPENAL_VERSION}.tar.gz
 	URL_HASH ${OPENAL_HASH}
 	DOWNLOAD_DIR ${download_dir}
 
@@ -193,8 +189,7 @@ ExternalProject_Add(openal
 
 string(REPLACE "." "_" BOOST_VERSION_UNDERSCORE ${BOOST_VERSION})
 ExternalProject_Add(boost
-	URL https://dl.bintray.com/boostorg/release/${BOOST_VERSION}/source/boost_${BOOST_VERSION_UNDERSCORE}.tar.bz2
-	https://github.com/xyzz/openmw-deps/releases/download/v0/boost_${BOOST_VERSION_UNDERSCORE}.tar.bz2
+	URL https://boostorg.jfrog.io/artifactory/main/release/${BOOST_VERSION}/source/boost_${BOOST_VERSION_UNDERSCORE}.tar.bz2
 	URL_HASH ${BOOST_HASH}
 	DOWNLOAD_DIR ${download_dir}
 
@@ -206,7 +201,8 @@ ExternalProject_Add(boost
 	BUILD_COMMAND ""
 
 	INSTALL_COMMAND ${wrapper_command} ./b2
-	-j4
+	-j32
+        --with-log
 	--with-filesystem
 	--with-program_options
 	--with-system
@@ -232,7 +228,6 @@ ExternalProject_Add(boost
 
 ExternalProject_Add(ffmpeg
 	URL http://ffmpeg.org/releases/ffmpeg-${FFMPEG_VERSION}.tar.bz2
-	https://github.com/xyzz/openmw-deps/releases/download/v0/ffmpeg-${FFMPEG_VERSION}.tar.bz2
 	URL_HASH ${FFMPEG_HASH}
 	DOWNLOAD_DIR ${download_dir}
 
@@ -273,7 +268,6 @@ ExternalProject_Add(ffmpeg
 
 ExternalProject_Add(sdl2
 	URL https://www.libsdl.org/release/SDL2-${SDL2_VERSION}.tar.gz
-	https://github.com/xyzz/openmw-deps/releases/download/v0/SDL2-${SDL2_VERSION}.tar.gz
 	URL_HASH ${SDL2_HASH}
 	DOWNLOAD_DIR ${download_dir}
 
@@ -291,8 +285,7 @@ ExternalProject_Add(sdl2
 )
 
 ExternalProject_Add(bullet
-	URL https://github.com/bulletphysics/bullet3/archive/${BULLET_VERSION}.tar.gz
-	https://github.com/xyzz/openmw-deps/releases/download/v0/bullet3-${BULLET_VERSION}.tar.gz
+	URL https://codeload.github.com/bulletphysics/bullet3/tar.gz/refs/tags/${BULLET_VERSION}
 	URL_HASH ${BULLET_HASH}
 	DOWNLOAD_DIR ${download_dir}
 
@@ -313,7 +306,6 @@ ExternalProject_Add(bullet
 
 ExternalProject_Add(gl4es
 	URL https://github.com/ptitSeb/gl4es/archive/${GL4ES_VERSION}.tar.gz
-	https://github.com/xyzz/openmw-deps/releases/download/v0/gl4es-${GL4ES_VERSION}.gz
 	URL_HASH ${GL4ES_HASH}
 	DOWNLOAD_DIR ${download_dir}
 
@@ -334,8 +326,7 @@ ExternalProject_Add(gl4es
 ExternalProject_Add(mygui
 	DEPENDS freetype2
 
-	URL https://github.com/MyGUI/mygui/archive/MyGUI${MYGUI_VERSION}.tar.gz
-	https://github.com/xyzz/openmw-deps/releases/download/v0/MyGUI${MYGUI_VERSION}.tar.gz
+	URL https://github.com/MyGUI/mygui/archive/refs/tags/MyGUI${MYGUI_VERSION}.tar.gz
 	URL_HASH ${MYGUI_HASH}
 	DOWNLOAD_DIR ${download_dir}
 
@@ -358,7 +349,6 @@ ExternalProject_Add(mygui
 
 ExternalProject_Add(lz4
 	URL https://github.com/lz4/lz4/archive/v${LZ4_VERSION}.tar.gz
-	https://github.com/xyzz/openmw-deps/releases/download/v0/v${LZ4_VERSION}.tar.gz
 	URL_HASH ${LZ4_HASH}
 	DOWNLOAD_DIR ${download_dir}
 
@@ -384,7 +374,7 @@ set(LUAJIT_MAKE_FLAGS
 )
 
 ExternalProject_Add(luajit
-	URL https://luajit.org/download/LuaJIT-${LUAJIT_VERSION}.tar.gz
+	URL https://github.com/LuaJIT/LuaJIT/archive/refs/tags/v${LUAJIT_VERSION}.tar.gz
 	URL_HASH ${LUAJIT_HASH}
 	DOWNLOAD_DIR ${download_dir}
 
@@ -445,7 +435,6 @@ ExternalProject_Add(osg
 	DEPENDS libjpeg-turbo libpng gl4es freetype2
 
 	URL https://github.com/openscenegraph/OpenSceneGraph/archive/OpenSceneGraph-${OSG_VERSION}.tar.gz
-	https://github.com/xyzz/openmw-deps/releases/download/v0/OpenSceneGraph-${OSG_VERSION}.tar.gz
 	URL_HASH ${OSG_HASH}
 	DOWNLOAD_DIR ${download_dir}
 
