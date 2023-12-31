@@ -17,7 +17,7 @@ set(OPENAL_VERSION 1.21.1)
 set(OPENAL_HASH SHA256=8ac17e4e3b32c1af3d5508acfffb838640669b4274606b7892aa796ca9d7467f)
 
 # http://www.boost.org/users/download/
-set(BOOST_VERSION 1.69.0)
+set(BOOST_VERSION 1.83.0)
 set(BOOST_HASH SHA256=8f32d4617390d1c2d16f26a27ab60d97807b35440d45891fa340fc2648b04406)
 
 # https://www.ffmpeg.org/download.html
@@ -219,7 +219,7 @@ ExternalProject_Add(openal
 )
 
 ExternalProject_Add(boost
-	URL https://boostorg.jfrog.io/artifactory/main/release/1.83.0/source/boost_1_83_0.tar.bz2
+	URL https://github.com/boostorg/boost/releases/download/boost-1.83.0/boost-1.83.0.tar.gz
 	#URL_HASH ${BOOST_HASH}
 	DOWNLOAD_DIR ${download_dir}
 
